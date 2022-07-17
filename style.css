@@ -63,6 +63,9 @@ label {
   padding: 7px;
   background: none;
 }
+.login-wrapper .login-user input:focus {
+  outline: none;
+}
 
 .login-wrapper .login-user input::placeholder {
   text-align: center;
@@ -84,4 +87,11 @@ label {
   align-items: center;
   border-radius: 18px;
   color: #fff9ca;
+}
+
+.login-wrapper .login-btn:hover {
+  font-size: 22px;
+  width: 122px;
+  height: 62px;
+  transition: all 0.1s linear;
 }
