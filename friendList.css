@@ -285,3 +285,69 @@ body {
 .friend .friend-profile-talk > span:nth-child(2) {
   color: darkgray;
 }
+
+.reponse-bottom-bar {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    background-color: transparent;
+  }
+  .friends-wrapper {
+    position: relative;
+  }
+  .reponse-bottom-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+    font-size: 32px;
+    border-top: 1px solid #fff9ca;
+    padding-top: 24px;
+  }
+  .chatting-wrapper .chatting-side-bar {
+    display: none;
+  }
+  .friends-wrapper .friends-my-profile {
+    display: none;
+  }
+  .friends-list {
+    margin-top: 0;
+  }
+  .friend {
+    margin-bottom: 14px;
+  }
+  .reponse-bottom-bar {
+    display: none;
+  }
+
+  @media all and (max-width: 768px) {
+    body {
+      background-color: transparent;
+    }
+    .chatting-wrapper-box {
+      position: relative;
+    }
+    .reponse-bottom-bar {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: 20px;
+      font-size: 32px;
+      border-top: 1px solid #fff9ca;
+      padding-top: 24px;
+    }
+    .chatting-wrapper .chatting-side-bar {
+      display: none;
+    }
+
+    .chatting-wrapper-box
+      .chatting-info-visuality-section
+      .chatting-info-visuality-cloud {
+      margin-bottom: 24px;
+    }
+  }
+}

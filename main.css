@@ -148,3 +148,32 @@ body {
   color: #fff9ca;
   transition: all 0.3s ease;
 }
+.reponse-bottom-bar {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    background-color: transparent;
+  }
+  .profile-wrapper {
+    position: relative;
+  }
+  .reponse-bottom-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+    font-size: 32px;
+    border-top: 1px solid #fff9ca;
+    padding-top: 24px;
+  }
+  .chatting-wrapper .chatting-side-bar {
+    display: none;
+  }
+
+  .profile-wrapper .profile-contact {
+    margin-top: 50px;
+  }
+}
